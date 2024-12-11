@@ -2,7 +2,6 @@
 pragma solidity ^0.8.0;
 
 contract Bank {
-
     // Mapping to keep track of balances for each address
     mapping(address => uint256) private balances;
 
